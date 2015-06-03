@@ -7,5 +7,5 @@ execute "create db" do
 end
 
 execute "import db" do
-  command "mysql -uroot phpapi</var/www/html/data/phpapi-with-data.sql"
+  command "mysql -uroot phpapi</var/www/html/data/item.sql"
 end
